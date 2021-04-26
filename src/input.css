@@ -1,0 +1,24 @@
+.inputBox {
+    display: flex;
+    overflow-x: clip;
+}
+
+.inputField {
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+    margin-inline-end: 0em;
+    padding-inline-end: 1em;
+    border-width: .12em;
+    height: 30px;
+    text-align: right
+}
+
+.inputLabel {
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-inline-start: 0em;
+    padding-inline-start: 0em;
+    border-width: .12em;
+    height: 33px;
+    width: 50px;
+}
